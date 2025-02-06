@@ -1,0 +1,33 @@
+ Multithreading ek technique hai jisme ek program me Thread ke sath execute kar sakte hai 
+ or yah program ke execution ko fast karne ke liye use hota hai 
+  
+ Thread - Thread ek light weight sub process hoti hai jo ek sath multiple task ko execute kar sakti hai
+ 
+ Java me MultiThreading ko implement karne ke Two ways hai
+ 1-	Thread Class
+ 2- Runnable Interface 
+ 
+ Thread class - Thread class me start() method run() method ko automatic call Akrta hai or ek new Thread create Krta hai
+ Runnable Interface - Runnable Interface Jyada flexible hota hai becouse hm ise 
+ 						java ki kisi or class ko bhi extends kar skte h 
+ 						
+ 						
+ Thread ke Important Method
+ 
+ start() - Thread execution ko start krta hai
+ run() - Thread ka task execute Krta hai
+ sleep() -Thread ko kuch time ke liye rokta hai
+ join()- Current thread ko tab tak roka rhega jab tak dusra thread execute nhi hota
+ setPriority(int p) - Thread ki priority set karta hai (MIN_PRIORITY=1, NORM_PRIORITY=5, MAX_PRIORITY=10)	
+ getName() - Thread ka name return karta hai	
+ 
+ 
+ 
+ Feature	   		Multitasking	                            Multithreading
+Definition			ek time me kayi processes ko execute करना	 | एक process के अंदर कई threads को execute करना
+Resource Usage		हर process को अलग memory मिलती है	   |   सभी threads एक ही memory share करते हैं
+Context Switching	Slow						|		Fast
+Example	एक साथ Chrome, VS Code, और Spotify चलाना	   |    एक ही application में background sync और UI update
+ 	 
+ 
+ 

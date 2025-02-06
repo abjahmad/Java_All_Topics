@@ -1,0 +1,6 @@
+Synchronization - Synchronization java me ek concept hai jo multithreading me shared resources ko safe rakhne ke liye 
+					use hota hai, jab multiple thread ek hi resources (like variable, method, object) ko access karte hai
+					to data inconsistency ki problem aa sakti hai
+					
+					multithreading me kayi thread ek hi resorces ko access kar sakte hai with the help of
+					synchronizatioon  
